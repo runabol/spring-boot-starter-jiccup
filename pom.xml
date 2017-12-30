@@ -9,13 +9,13 @@
 	<packaging>jar</packaging>
 
 	<name>spring-boot-starter-jiccup</name>
-	<description>Clojure HIccup Inspired Java HTML Library</description>
+	<description>Clojure Hiccup Inspired Java HTML Library</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.9.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> 
 	</parent>
 
 	<properties>

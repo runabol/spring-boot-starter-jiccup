@@ -1,10 +1,12 @@
-package com.creactiviti.jiccup;
+package com.creactiviti.jiccup.spring.boot;
 
 import static com.creactiviti.jiccup.Elements.*;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.creactiviti.jiccup.Html;
 
 @Controller
 public class Starter {

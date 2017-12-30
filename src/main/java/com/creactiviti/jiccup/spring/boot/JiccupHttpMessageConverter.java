@@ -1,4 +1,4 @@
-package com.creactiviti.jiccup;
+package com.creactiviti.jiccup.spring.boot;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -7,6 +7,8 @@ import org.springframework.http.HttpInputMessage;
 import org.springframework.http.HttpOutputMessage;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.AbstractHttpMessageConverter;
+
+import com.creactiviti.jiccup.Html;
 
 public class JiccupHttpMessageConverter extends AbstractHttpMessageConverter<Html> {
 

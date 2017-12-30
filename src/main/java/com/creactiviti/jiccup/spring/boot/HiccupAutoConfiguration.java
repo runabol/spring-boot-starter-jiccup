@@ -1,4 +1,4 @@
-package com.creactiviti.jiccup;
+package com.creactiviti.jiccup.spring.boot;
 
 import java.util.List;
 
