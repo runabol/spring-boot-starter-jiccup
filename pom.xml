@@ -50,7 +50,6 @@
 		  <groupId>com.creactiviti</groupId>
 		  <artifactId>jiccup</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
-		  <scope>provided</scope>
 		</dependency>
 
 	</dependencies>
