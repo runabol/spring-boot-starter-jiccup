@@ -12,6 +12,20 @@ Watning: This project is still in an experimental phase.
   <artifactId>spring-boot-starter-jiccup</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 </dependency>
+
+<repositories>
+	<repository>
+		<id>maven-snapshots</id>
+		<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+		<layout>default</layout>
+		<releases>
+			<enabled>false</enabled>
+		</releases>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+</repositories>
 ```
 
 # Hello World

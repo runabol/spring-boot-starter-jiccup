@@ -50,6 +50,7 @@
 		  <groupId>com.creactiviti</groupId>
 		  <artifactId>jiccup</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
+		  <scope>provided</scope>
 		</dependency>
 
 	</dependencies>
@@ -137,5 +138,19 @@
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</repository>
 	</distributionManagement>
+	
+	<repositories>
+		<repository>
+			<id>maven-snapshots</id>
+			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+			<layout>default</layout>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	
 </project>
