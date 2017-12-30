@@ -37,6 +37,10 @@ Watning: This project is still in an experimental phase.
 # Hello World
 
 ```
+import static com.creactiviti.jiccup.Elements.*;
+
+...
+
 @Controller
 @ResponseBody
 public class Hello {
