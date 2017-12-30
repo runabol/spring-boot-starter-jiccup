@@ -13,6 +13,12 @@ Watning: This project is still in an experimental phase.
   <version>0.0.1-SNAPSHOT</version>
 </dependency>
 
+<dependency>
+  <groupId>com.creactiviti</groupId>
+  <artifactId>jiccup</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</dependency>
+
 <repositories>
 	<repository>
 		<id>maven-snapshots</id>
